@@ -1,0 +1,11 @@
+{
+  "name": "scrum-board",
+  "version": "1.0.0",
+  "author": "Japneet Singh",
+  "license": "MIT",
+  "scripts": {
+    "install-dependencies": "npm install && cd api && npm install && cd ../client && npm install",
+    "build": "cd api && npm run build && cd ../client && npm run build"
+  },
+  "dependencies": {}
+}
